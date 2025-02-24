@@ -1,0 +1,8 @@
+Flask
+flask-cors
+Pillow
+serpapi
+google-generativeai
+mysql-connector-python
+dotenv
+cryptography
