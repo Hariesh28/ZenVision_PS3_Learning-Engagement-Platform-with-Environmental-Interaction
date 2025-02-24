@@ -7,7 +7,7 @@ from serpapi import GoogleSearch
 import google.generativeai as genai
 from flask import Flask, request, jsonify
 
-genai.configure(api_key='AIzaSyC72fWC2qpaib8kRp7Buirk0EbHKW5aBO4')
+genai.configure(api_key=os.getenv('GEMINI_API'))
 
 app = Flask(__name__)
 CORS(app)
